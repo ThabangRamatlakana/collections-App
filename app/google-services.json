@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "970824328377",
+    "project_id": "cloudkicks",
+    "storage_bucket": "cloudkicks.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970824328377:android:d58b0d43e68dcfed566768",
+        "android_client_info": {
+          "package_name": "com.example.cloudkicks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970824328377-p0o1jbfnq90pjea3theo4rq7r649ej3u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlz0y4NlE3nhpHjSbcKuHSVUI1_29qJ3Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970824328377-p0o1jbfnq90pjea3theo4rq7r649ej3u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:drawable="@drawable/blackbackground_broski"-->*
+    <item android:drawable="@drawable/cloudkickslogonew"
+        android:gravity="center_horizontal"
+        />
+</layer-list>
+

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CollectionsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/neon_border"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose Collections Cover"
+                android:fontFamily="@font/lato"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="@color/magenta"/>
+
+            <ImageView
+                android:id="@+id/uploadImage"
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/cameraicon"/>
+
+            <EditText
+                android:id="@+id/collectionName"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/neon_border"
+                android:gravity="start|center_vertical"
+                android:hint="Collection Name "
+                android:maxLines="1"
+                android:padding="16dp"
+                android:textColor="@color/electric_magenta" />
+
+
+            <TextView
+                android:id="@+id/collectionGoal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="1dp"
+                android:text="Enter Collection goal:"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:contentDescription="dec"
+                    android:id="@+id/decrease"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/baseline_remove_24"
+                    android:textSize="10sp"/>
+
+                <TextView
+                    android:id="@+id/integer_number"
+                    android:layout_width="48sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="16dp"
+                    android:text="0"
+                    android:inputType="number"
+                    android:textStyle="bold"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:contentDescription="inc"
+                    android:id="@+id/increase"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/baseline_add_24" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/collectionDescription"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/neon_border"
+                android:gravity="start|center_vertical"
+                android:hint="Description"
+                android:padding="16dp"
+                android:textColor="@color/electric_magenta" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ClearButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/lato"
+                    android:text="@string/button_Clear" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/save"
+                    android:fontFamily="@font/lato"
+                    android:id="@+id/saveButton"
+                       />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

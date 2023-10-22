@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">CK</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_shoe">Add Shoe</string>
+    //paste this array for the spinner for the shoe size
+    <string name="button_Clear">CLEAR</string>
+    <string name="add_new_shoe">ADD NEW SHOE</string>
+    <string name="add_new_collection">ADD NEW COLLECTION</string>
+    <string name="assign_shoe_to_collection">Assign shoe to collection</string>
+    <string name="save">SAVE</string>
+    <string-array name="shoe_sizes">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+</resources>

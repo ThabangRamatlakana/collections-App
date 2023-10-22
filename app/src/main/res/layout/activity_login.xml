@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blackbackground_broski"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="330dp"
+            android:padding="45dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/login_email"
+                android:background="@drawable/neon_border"
+                android:padding="8dp"
+                android:fontFamily="@font/lato"
+                android:hint="Email"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawablePadding="8dp"
+                android:textColor="@color/ActivitiesBg2"
+                android:orientation="vertical"
+                android:textColorHint="@color/ActivitiesBg2"
+                android:textSize="18dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/login_password"
+                android:background="@drawable/neon_border"
+                android:padding="8dp"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/lato"
+                android:hint="Password"
+                android:drawableLeft="@drawable/baseline_lock_245"
+                android:drawablePadding="10dp"
+                android:inputType="textPassword"
+                android:textColor="@color/ActivitiesBg2"
+                android:orientation="vertical"
+                android:textColorHint="@color/ActivitiesBg2"
+                android:textSize="18dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:text="Login"
+                android:fontFamily="@font/lato"
+                android:id="@+id/login_button"
+                android:textSize="22dp"
+                app:cornerRadius="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/signupRedirect"
+                android:text="Not yet registered? Signup"
+                android:layout_gravity="center"
+                android:fontFamily="@font/lato"
+                android:textColor="@color/lightLavendar"
+                android:layout_marginTop="8dp"
+                android:textSize="18dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

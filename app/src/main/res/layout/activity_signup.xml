@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blackbackground_broski"
+    tools:context=".SignupActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="280dp"
+            android:padding="45dp">
+
+            <EditText
+                android:id="@+id/signup_email"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/neon_border"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/lato"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:textColor="@color/ActivitiesBg2"
+                android:textColorHint="@color/ActivitiesBg2" />
+
+            <EditText
+                android:id="@+id/signup_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/neon_border"
+                android:drawableLeft="@drawable/baseline_lock_245"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/lato"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:textColor="@color/ActivitiesBg2"
+                android:textColorHint="@color/ActivitiesBg2"
+                />
+
+            <EditText
+                android:id="@+id/signup_confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/neon_border"
+                android:drawableLeft="@drawable/baseline_lock_245"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/lato"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:textColor="@color/ActivitiesBg2"
+                android:textColorHint="@color/ActivitiesBg2" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:text="SignUp"
+                android:fontFamily="@font/lato"
+                android:id="@+id/signup_button"
+                android:textSize="22dp"
+                app:cornerRadius="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/loginRedirect"
+                    android:text="Already a User? Login"
+                    android:layout_gravity="center"
+                    android:textColor="@color/lightLavendar"
+                    android:layout_marginTop="8dp"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/lato"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
